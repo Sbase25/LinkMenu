@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "linkmenu",
+  "version": "${version}",
+  "name": "LinkMenu",
+  "description": "Add custom links (website, Discord, ...) to the Server Links menu in the pause screen.",
+  "authors": ["YOUR_NAME"],
+  "contact": {
+    "sources": "https://github.com/YOUR_NAME/LinkMenu",
+    "issues": "https://github.com/YOUR_NAME/LinkMenu/issues"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": ["linkmenu.LinkMenuMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
