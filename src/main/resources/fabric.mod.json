@@ -1,7 +1,13 @@
-     "authors": ["Sbase25"],
-     "contact": {
-       "sources": "https://github.com/Sbase25/LinkMenu",
-       "issues": "https://github.com/Sbase25/LinkMenu/issues"
+﻿{
+  "schemaVersion": 1,
+  "id": "linkmenu",
+  "version": "${version}",
+  "name": "LinkMenu",
+  "description": "Add custom links (website, Discord, ...) to the Server Links menu in the pause screen.",
+  "authors": ["Sbase25"],
+  "contact": {
+    "sources": "https://github.com/Sbase25/LinkMenu",
+    "issues": "https://github.com/Sbase25/LinkMenu/issues"
   },
   "license": "MIT",
   "environment": "server",
